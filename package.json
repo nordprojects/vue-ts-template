@@ -8,7 +8,9 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
-    "vue": "^2.5.16"
+    "firebase": "^5.2.0",
+    "vue": "^2.5.16",
+    "vuefire": "^1.4.5"
   },
   "devDependencies": {
     "@vue/cli-plugin-typescript": "^3.0.0-beta.15",
