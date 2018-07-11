@@ -1,7 +1,6 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
+    <HelloWorld msg="Hello, world!"/>
   </div>
 </template>
 
@@ -11,6 +10,11 @@ import HelloWorld from './components/HelloWorld.vue';
 
 export default Vue.extend({
   name: 'app',
+  data() {
+    return {}
+  },
+  methods: {
+  },
   components: {
     HelloWorld
   }
