@@ -5,6 +5,7 @@
 Use VS Code for development.
 
 - Install the 'Vetur' plugin for vue component file support.
+- Install the 'EditorConfig for VS Code' for correct formatting.
 - `npm install`
 - `npm run dev`
 - Go to http://localhost:8080
