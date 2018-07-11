@@ -10,6 +10,11 @@ Use VS Code for development.
 - `npm run dev`
 - Go to http://localhost:8080
 
+## Firebase
+
+To use with Firebase Realtime Database, add your Firebase project config
+to the `initializeApp` call in `src/firebaseApp.ts`.
+
 ## Debugging in VS Code
 
 - Install the 'Debugger for Chrome' plugin.
