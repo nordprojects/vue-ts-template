@@ -1,4 +1,4 @@
-# Project name
+# {Projectname}
 
 ## Development
 
