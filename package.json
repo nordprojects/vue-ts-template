@@ -8,14 +8,14 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
-    "firebase": "^5.2.0",
-    "vue": "^2.5.16",
+    "firebase": "^5.4.0",
+    "vue": "^2.5.17",
     "vuefire": "^1.4.5"
   },
   "devDependencies": {
-    "@vue/cli-plugin-typescript": "^3.0.0-beta.15",
-    "@vue/cli-service": "^3.0.0-beta.15",
-    "vue-template-compiler": "^2.5.16"
+    "@vue/cli-plugin-typescript": "^3.0.1",
+    "@vue/cli-service": "^3.0.1",
+    "vue-template-compiler": "^2.5.17"
   },
   "browserslist": [
     "> 1%",
