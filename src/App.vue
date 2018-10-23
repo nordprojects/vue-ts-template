@@ -1,12 +1,15 @@
 <template>
   <div id="app">
-    <HelloWorld msg="Hello, world!"/>
+    <PhoneFrame360>
+      <HelloWorld msg="Hello, world!"/>
+    </PhoneFrame360>
   </div>
 </template>
 
 <script lang="ts">
 import Vue from 'vue';
 import HelloWorld from './components/HelloWorld.vue';
+import PhoneFrame360 from './components/PhoneFrame360.vue';
 
 export default Vue.extend({
   name: 'app',
@@ -16,18 +19,18 @@ export default Vue.extend({
   methods: {
   },
   components: {
-    HelloWorld
+    HelloWorld,
+    PhoneFrame360,
   }
 });
 </script>
 
 <style>
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
+  text-align: left;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
