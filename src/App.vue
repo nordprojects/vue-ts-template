@@ -1,15 +1,17 @@
 <template>
   <div id="app">
-    <PhoneFrame360>
-      <HelloWorld msg="Hello, world!"/>
-    </PhoneFrame360>
+    <PhoneFrame360720 bgColor="white" >
+      <HelloWorld msg="Hello, world!" />
+      <FullscreenButton class="fullscreen-button" />
+    </PhoneFrame360720>
   </div>
 </template>
 
 <script lang="ts">
 import Vue from 'vue';
 import HelloWorld from './components/HelloWorld.vue';
-import PhoneFrame360 from './components/PhoneFrame360.vue';
+import PhoneFrame360720 from './components/PhoneFrame360720.vue';
+import FullscreenButton from './components/FullscreenButton.vue';
 
 export default Vue.extend({
   name: 'app',
@@ -20,7 +22,8 @@ export default Vue.extend({
   },
   components: {
     HelloWorld,
-    PhoneFrame360,
+    PhoneFrame360720,
+    FullscreenButton,
   }
 });
 </script>
@@ -32,5 +35,14 @@ export default Vue.extend({
   -moz-osx-font-smoothing: grayscale;
   text-align: left;
   color: #2c3e50;
+}
+</style>
+
+<style scoped>
+.fullscreen-button {
+  position: absolute;
+  left: 50%;
+  bottom: 40px;
+  transform: translate(-50%, 0);
 }
 </style>
