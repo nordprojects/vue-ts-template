@@ -22,7 +22,7 @@ export default {
   },
   methods: {
     fullscreen: function () {
-      window.document.documentElement.webkitRequestFullScreen();
+      window.document.documentElement.webkitRequestFullScreen({navigationUI: "hide"});
     },
     fullscreenDidChange: function () {
       this.showFullscreenButton = !document.webkitIsFullScreen;
